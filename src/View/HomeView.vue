@@ -1,10 +1,11 @@
 <template>
-<TodoApp />
+<Calculator />
 
 </template>
 
 <script setup>
-import TodoApp from '../components/TodoApp.vue'
+
+import Calculator from '../components/Calculator.vue'
 </script>
 
 <style scoped>
