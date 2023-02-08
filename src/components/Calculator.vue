@@ -7,7 +7,7 @@ let result = ref(0);
 const handleSubmit = async (e) =>{
     e.preventDefault();
     
-    const fetchData = await fetch('http://localhost:3000/',{
+    const fetchData = await fetch('http://localhost:3000/calculate/',{
         method:'POST',
         headers:{
            "Content-type":"application/json",
